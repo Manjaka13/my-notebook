@@ -1,5 +1,7 @@
 /* Global variables */
 
 * {
-    --fs-p: 18px;
+	--fs-p: 18px;
+	--color-pen: #000f55;
+	--color-pen2: rgb(0, 29, 160);
 }
