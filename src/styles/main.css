@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Virgil";
+    src: url(/public/fonts/Virgil.woff2) format("woff2");
+}
+
+* {
+    font-family: Virgil;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-top: 60px;
+    line-height: 1.6;
+}
+
+html,
+body,
+#app,
+main {
+    min-height: 100vh;
+}
+
+html,
+body,
+#app,
+p,
+h1,
+h2,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+p,
+button,
+input,
+a {
+    font-size: var(--fs-p);
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+#app {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    background: url(/public/images/notebook.jpg) repeat-y;
+    background-size: 100%;
+    background-position-y: -25px;
+}
