@@ -51,7 +51,9 @@ a {
 
 a,
 button {
-	cursor: pointer;
+	cursor:
+		url(/public/images/pen-hover.png) 0 32,
+		default;
 }
 
 ul {

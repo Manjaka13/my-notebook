@@ -4,197 +4,20 @@
 			<h1 class="notebook__title">My Notebook</h1>
 			<side-note />
 		</div>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
-		<p>
-			Culpa labore cupidatat in proident quis eiusmod commodo veniam. Laborum
-			consequat ut aliquip laborum. Ea duis voluptate quis in officia in. Aliquip
-			culpa quis veniam id ex do minim ex eu ipsum ex irure duis ipsum. Aute nisi
-			magna esse incididunt fugiat sit occaecat amet ex.
-		</p>
+		<task-list />
 	</div>
 </template>
 
 <script>
 import "@/styles/notebook.css";
 import SideNote from "@/components/SideNote.vue";
+import TaskList from "@/components/TaskList.vue";
 
 export default {
 	name: "NoteBook",
 	components: {
 		SideNote,
+		TaskList,
 	},
 };
 </script>
