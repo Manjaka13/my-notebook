@@ -10,6 +10,9 @@
 	-moz-osx-font-smoothing: grayscale;
 	line-height: 1.6;
 	color: var(--color-pen);
+	cursor:
+		url(/public/images/pen.png) 0 32,
+		default;
 }
 
 html,

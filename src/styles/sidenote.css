@@ -19,7 +19,9 @@
 .sidenote__content .add {
 	border: none;
 	background: transparent;
-	cursor: pointer;
+	cursor:
+		url(/public/images/pen-hover.png) 0 32,
+		default;
 	font-size: 24px;
 	transition: font-size 200ms ease-in-out;
 }
@@ -29,7 +31,7 @@
 }
 
 .sidenote__scotch1 {
-	transform: rotate(-80deg);
+	transform: rotate(-100deg);
 	width: 70px;
 	position: absolute;
 	top: -10px;
