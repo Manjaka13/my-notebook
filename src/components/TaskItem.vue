@@ -1,11 +1,11 @@
 <template>
 	<div class="taskitem">
 		<div class="taskitem__status">
-			<font-icon icon="check" />
+			<font-icon v-if="status" icon="check" />
 		</div>
 		<div class="taskitem__content">
 			<div class="taskitem__head">
-				<h2 class="title">This is a task title</h2>
+				<h2 class="title">{{ title }}</h2>
 				<div class="taskitem__actions">
 					<button class="action edit" title="Edit task">
 						<font-icon icon="pencil-alt" />
@@ -16,10 +16,7 @@
 				</div>
 			</div>
 			<p class="description">
-				Qui excepteur veniam ad sit sunt excepteur incididunt amet velit dolore.
-				Amet laboris aute deserunt mollit voluptate duis do eu minim enim ullamco.
-				Do minim minim anim exercitation irure occaecat sint mollit id velit non.
-				Sint ullamco consectetur.
+				{{ description }}
 			</p>
 		</div>
 	</div>
@@ -30,5 +27,10 @@ import "@/styles/taskitem.css";
 
 export default {
 	name: "TaskItem",
+	props: {
+		title: String,
+		description: String,
+		status: Boolean,
+	},
 };
 </script>

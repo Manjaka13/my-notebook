@@ -1,5 +1,6 @@
 .taskitem {
 	display: flex;
+	align-items: center;
 }
 
 .taskitem__status {
@@ -11,6 +12,10 @@
 	border: 4px var(--color-pen) solid;
 	border-radius: 7px;
 	font-size: 70px;
+	transition: all 200ms ease-in-out;
+}
+
+.taskitem__status:hover {
 	background: #000f5536;
 }
 
@@ -32,6 +37,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 10px;
 }
 
 .taskitem:hover .taskitem__content {
