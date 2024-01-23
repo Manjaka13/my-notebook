@@ -1,6 +1,6 @@
 <template>
 	<div class="taskitem">
-		<div class="taskitem__status">
+		<div class="taskitem__status" @click="$emit('toggle')">
 			<font-icon v-if="status" icon="check" />
 		</div>
 		<div class="taskitem__content">
