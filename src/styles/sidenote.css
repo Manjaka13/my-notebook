@@ -1,0 +1,45 @@
+.sidenote {
+	position: relative;
+}
+
+.sidenote__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 80px;
+	overflow: hidden;
+	background: url(/public/images/note.jpg);
+	background-size: 200px;
+	transform: rotate(-10deg);
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+	padding: 10px;
+}
+
+.sidenote__content .add {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-size: 24px;
+	transition: font-size 200ms ease-in-out;
+}
+
+.sidenote__content .add:hover {
+	font-size: 27px;
+}
+
+.sidenote__scotch1 {
+	transform: rotate(-80deg);
+	width: 70px;
+	position: absolute;
+	top: -10px;
+	left: -30px;
+}
+
+.sidenote__scotch2 {
+	transform: rotate(-100deg);
+	width: 70px;
+	position: absolute;
+	bottom: -10px;
+	right: -30px;
+}
