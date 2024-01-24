@@ -7,7 +7,7 @@ import { DEFAULT_TASKS } from "@/helpers/const";
 // Gets task list
 export const getTasks = () => {
 	const tasks = localStorage.getItem("todos");
-	return tasks === null ? [] : JSON.parse(tasks);
+	return tasks === null ? undefined : JSON.parse(tasks);
 };
 
 // Push a new task
@@ -16,7 +16,7 @@ export const pushTask = (task) => {
 	if (tasks === null) localStorage.setItem("todos", JSON.stringify([task]));
 	else {
 		tasks = JSON.parse(tasks);
-		if (Array.isArray(tasks)) tasks.push(task);
+		if (Array.isArray(tasks)) tasks = [task, ...tasks];
 		else tasks = [task];
 		localStorage.setItem("todos", JSON.stringify(tasks));
 	}
