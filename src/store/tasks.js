@@ -12,6 +12,7 @@ export default createStore({
 		return {
 			tasks: [],
 			modal: { status: 0, payload: null },
+			modalAction: 0,
 		};
 	},
 
@@ -40,8 +41,13 @@ export default createStore({
 		changeTask: ({ commit }, { key, task }) => {
 			commit("updateTask", { key, task });
 		},
+		// Opens and close modal on different modes
 		toggleModal: ({ commit }, data) => {
 			commit("setModal", data);
+		},
+		// Informs the whole app of the action going on (add/edit/yes/no...)
+		setAction: ({ commit }, status) => {
+			commit("setAction", status);
 		},
 	},
 
@@ -78,6 +84,9 @@ export default createStore({
 					payload,
 				};
 		},
+		setAction(state, status) {
+			state.modalAction = status;
+		},
 	},
 
 	// Data getters
@@ -97,6 +106,9 @@ export default createStore({
 		// Get modal current mode
 		getModalStatus(state) {
 			return state.modal;
+		},
+		getModalAction(state) {
+			return state.modalAction;
 		},
 	},
 });
