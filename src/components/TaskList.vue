@@ -30,11 +30,15 @@ export default {
 	data() {
 		return {
 			removing: -1,
+			tmp: -1,
 		};
 	},
 	computed: {
 		tasks() {
 			return this.$store.getters.getTasks;
+		},
+		modalAction() {
+			return this.$store.getters.modalAction;
 		},
 	},
 	methods: {
@@ -48,7 +52,8 @@ export default {
 			});
 		},
 		remove(key) {
-			this.removing = key;
+			this.$store.dispatch("toggleModal", { status: 3 });
+			this.tmp = key;
 		},
 		edit(key) {
 			this.$store.dispatch("toggleModal", { status: 2, payload: key });
@@ -62,6 +67,18 @@ export default {
 					this.removing = -1;
 				}, 200);
 			}
+		},
+		"$store.state.modalAction"(status) {
+			if (status === 3) {
+				this.removing = this.tmp;
+				this.$store.dispatch("setAction", 0);
+				this.$store.dispatch("toggleModal", { status: 0 });
+			} else if (status === 4) {
+				this.removing = -1;
+				this.$store.dispatch("toggleModal", { status: 0 });
+				this.$store.dispatch("setAction", 0);
+			}
+			this.tmp = -1;
 		},
 	},
 };
