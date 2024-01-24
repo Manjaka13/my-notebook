@@ -9,3 +9,24 @@
 .tasklist__item:last-child {
 	margin-bottom: 0;
 }
+
+.tasklist--empty {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.tasklist--empty .image {
+	width: 200px;
+	transform: rotate(20deg);
+}
+
+.tasklist--empty .text {
+	position: absolute;
+	font-weight: bold;
+	font-size: 50px;
+	color: #d71313;
+	transform: rotate(20deg);
+}
