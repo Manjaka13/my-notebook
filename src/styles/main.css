@@ -41,7 +41,8 @@ p {
 p,
 button,
 input,
-a {
+a,
+textarea {
 	font-size: var(--fs-p);
 }
 
@@ -73,4 +74,8 @@ path {
 	pointer-events: none;
 	color: inherit;
 	transition: all 200ms ease-in-out;
+}
+
+textarea {
+	resize: none;
 }
