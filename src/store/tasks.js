@@ -11,6 +11,7 @@ export default createStore({
 	state() {
 		return {
 			tasks: [],
+			modal: 0,
 		};
 	},
 
@@ -39,6 +40,9 @@ export default createStore({
 		changeTask: ({ commit }, { key, task }) => {
 			commit("updateTask", { key, task });
 		},
+		toggleModal: ({ commit }, mode) => {
+			commit("setModal", mode);
+		},
 	},
 
 	mutations: {
@@ -66,6 +70,10 @@ export default createStore({
 			state.tasks = [];
 			setTasks([]);
 		},
+		// Opens/closes modal
+		setModal(state, mode) {
+			if (mode === 0 || mode === 1 || mode === 2) state.modal = mode;
+		},
 	},
 
 	// Data getters
@@ -81,6 +89,10 @@ export default createStore({
 		// Get only remaining
 		getRemainingTasks(state) {
 			return state.tasks.filter((task) => !task.status);
+		},
+		// Get modal current mode
+		getModalStatus(state) {
+			return state.modal;
 		},
 	},
 });
