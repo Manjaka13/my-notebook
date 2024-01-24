@@ -19,9 +19,6 @@
 .sidenote__content .add {
 	border: none;
 	background: transparent;
-	cursor:
-		url(/public/images/pen-hover.png) 0 32,
-		default;
 	font-size: 24px;
 	transition: font-size 200ms ease-in-out;
 }

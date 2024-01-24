@@ -73,9 +73,6 @@
 	overflow: hidden;
 	background: rgba(255, 255, 255, 0.37);
 	transition: all 200ms ease-in-out;
-	cursor:
-		url(/public/images/pen-hover.png) 0 32,
-		default;
 }
 
 .taskitem__actions .remove {

@@ -50,13 +50,6 @@ a {
 	text-decoration: none;
 }
 
-a,
-button {
-	cursor:
-		url(/public/images/pen-hover.png) 0 32,
-		default;
-}
-
 ul {
 	list-style-type: none;
 }
