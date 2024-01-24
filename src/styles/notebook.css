@@ -21,3 +21,10 @@
 	font-size: 60px;
 	transform: rotate(-2deg);
 }
+
+.notebook__remaining {
+	font-size: 25px;
+	border: 5px var(--color-pen) solid;
+	padding: 1px 10px;
+	border-radius: 5px;
+}
