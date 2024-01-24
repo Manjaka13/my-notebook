@@ -1,6 +1,13 @@
 .taskitem {
 	display: flex;
 	align-items: center;
+	transition: all 200ms ease-in-out;
+	position: relative;
+	left: 0;
+}
+
+.taskitem--removing {
+	left: 100%;
 }
 
 .taskitem__status {
@@ -66,6 +73,13 @@
 	overflow: hidden;
 	background: rgba(255, 255, 255, 0.37);
 	transition: all 200ms ease-in-out;
+	cursor:
+		url(/public/images/pen-hover.png) 0 32,
+		default;
+}
+
+.taskitem__actions .remove {
+	color: var(--color-pen-red) !important;
 }
 
 .taskitem__actions .action:hover {

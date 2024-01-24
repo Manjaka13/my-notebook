@@ -1,5 +1,5 @@
 <template>
-	<div class="taskitem">
+	<div :class="`taskitem${removing ? ' taskitem--removing' : ''}`">
 		<div class="taskitem__status" @click="$emit('toggle')">
 			<font-icon v-if="status" icon="check" />
 		</div>
@@ -10,7 +10,7 @@
 					<button class="action edit" title="Edit task">
 						<font-icon icon="pencil-alt" />
 					</button>
-					<button class="action delete" title="Remove task">
+					<button class="action remove" title="Remove task" @click="$emit('remove')">
 						<font-icon icon="trash-alt" />
 					</button>
 				</div>
@@ -31,6 +31,7 @@ export default {
 		title: String,
 		description: String,
 		status: Boolean,
+		removing: Boolean,
 	},
 };
 </script>
