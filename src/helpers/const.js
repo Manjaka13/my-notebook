@@ -5,17 +5,17 @@
 export const SOCIAL = [
 	{
 		title: "Reach me on Facebook !",
-		link: "#0",
+		link: "https://wwww.faebook.com/manjaka13",
 		icon: ["fab", "facebook"],
 	},
 	{
 		title: "View my repos",
-		link: "#0",
+		link: "https://github.com/manjaka13",
 		icon: ["fab", "github"],
 	},
 	{
 		title: "Contact me on LinkedIn",
-		link: "#0",
+		link: "https://www.linkedin.com/in/harijaona-rajaonson",
 		icon: ["fab", "linkedin"],
 	},
 ];
