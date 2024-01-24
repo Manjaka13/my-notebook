@@ -26,7 +26,7 @@ export const DEFAULT_TASKS = [
 		title: "Organize the work day",
 		description:
 			"Start the day with a clear agenda and simple instructions. Following these steps can increase productivity at work.",
-		status: false,
+		status: true,
 	},
 	{
 		id: "38701da1-97c1-4c58-ad42-56c180578602",
@@ -40,7 +40,7 @@ export const DEFAULT_TASKS = [
 		title: "Undertaking the first tasks",
 		description:
 			"Identify the most important and urgent tasks on the agenda and rank them according to what the agenda suggests using the Eisenhower Matrix.",
-		status: false,
+		status: true,
 	},
 	{
 		id: "4407057d-0e71-404d-b116-8a85b0176242",
@@ -61,7 +61,7 @@ export const DEFAULT_TASKS = [
 		title: "Customer meeting about progress",
 		description:
 			"It is important that the client knows where their project is and if there are any particular blockages. You must know how to give a detailed report of your past and current work.",
-		status: false,
+		status: true,
 	},
 	{
 		id: "83e27810-1025-4a8d-89f1-a1e5ea007059",
