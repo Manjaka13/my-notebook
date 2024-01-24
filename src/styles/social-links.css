@@ -20,9 +20,23 @@
 .social-links__item .link {
 	font-size: 40px;
 	color: var(--color-pen);
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .social-links__item .link:hover {
 	color: var(--color-pen2);
+}
+
+@media only screen and (max-width: 600px) {
+	.social-links {
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		width: calc(100% - 40px);
+		height: 50px;
+		margin: 0 20px;
+		position: initial;
+		border-top: 1px #000f556e solid;
+		height: auto;
+	}
 }

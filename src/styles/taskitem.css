@@ -1,7 +1,7 @@
 .taskitem {
 	display: flex;
 	align-items: center;
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
 	position: relative;
 	left: 0;
 }
@@ -19,7 +19,13 @@
 	border: 4px var(--color-pen) solid;
 	border-radius: 7px;
 	font-size: 70px;
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
+}
+
+.taskitem__status .icon {
+	color: var(--color-pen-green);
+	position: relative;
+	top: -4px;
 }
 
 .taskitem__status:hover {
@@ -32,7 +38,7 @@
 	padding: 5px 10px;
 	border-radius: 5px;
 	background: transparent;
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .taskitem__content:hover .taskitem__actions {
@@ -56,7 +62,7 @@
 	align-items: center;
 	opacity: 0;
 	pointer-events: none;
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .taskitem__actions .action {
@@ -72,7 +78,11 @@
 	height: 35px;
 	overflow: hidden;
 	background: rgba(255, 255, 255, 0.37);
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
+}
+
+.taskitem__actions .edit {
+	color: var(--color-pen-green) !important;
 }
 
 .taskitem__actions .remove {
@@ -86,4 +96,58 @@
 
 .taskitem__actions .action:first-child {
 	margin-left: 0;
+}
+
+@media only screen and (max-width: 700px) {
+	.taskitem__head .title {
+		font-size: 19px;
+	}
+
+	.taskitem__content .description {
+		font-size: 15px;
+	}
+
+	.taskitem__status {
+		width: 30px;
+		height: 30px;
+		font-size: 47px;
+		border: 2px var(--color-pen) solid;
+	}
+
+	.taskitem__actions .action {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.taskitem__head {
+		position: relative;
+		margin-bottom: 0;
+	}
+
+	.taskitem__content .description {
+		display: none;
+	}
+
+	.taskitem__actions {
+		position: absolute;
+		top: -17px;
+		right: 0;
+		background: white;
+		border: 1px var(--color-pen) solid;
+		border-radius: 5px;
+	}
+
+	.taskitem__actions .action {
+		width: 27px;
+		height: 27px;
+		background: white;
+		font-size: 15px;
+		border: none;
+		margin: 0;
+	}
+
+	.taskitem__actions .action:hover {
+		font-size: 18px;
+	}
 }

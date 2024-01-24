@@ -1,12 +1,19 @@
 <template>
 	<div :class="`taskitem${removing ? ' taskitem--removing' : ''}`">
 		<div class="taskitem__status" @click="$emit('toggle')">
-			<font-icon v-if="status" icon="check" />
+			<font-icon class="icon" v-if="status" icon="check" />
 		</div>
 		<div class="taskitem__content">
 			<div class="taskitem__head">
 				<h2 class="title">{{ title }}</h2>
 				<div class="taskitem__actions">
+					<button
+						class="action details"
+						title="View details"
+						@click="$emit('details')"
+					>
+						<font-icon icon="list-alt" />
+					</button>
 					<button class="action edit" title="Edit task" @click="$emit('edit')">
 						<font-icon icon="pencil-alt" />
 					</button>

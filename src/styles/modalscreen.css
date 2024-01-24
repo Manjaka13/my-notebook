@@ -65,10 +65,10 @@
 }
 
 .modal__confirm .button {
-	border-radius: 3px;
+	border-radius: 5px;
 	border: 1px var(--color-pen) solid;
 	margin-right: 20px;
-	width: 200px;
+	width: 170px;
 	background: white;
 	font-size: 30px;
 	transition: all 200ms ease-out;
@@ -126,4 +126,39 @@
 	color: var(--color-pen-red);
 	font-weight: bold;
 	margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+	.modal__container {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.modal {
+		width: 100%;
+		left: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.modal__container {
+		width: 100%;
+		height: 100%;
+	}
+
+	.modal__confirm {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.modal__confirm .button {
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+	.modal__confirm .button:last-child {
+		margin-bottom: 0;
+	}
 }

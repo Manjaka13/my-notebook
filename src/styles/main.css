@@ -62,11 +62,20 @@ ul {
 	background-size: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+	#app {
+		flex-direction: column-reverse;
+		height: auto;
+		background: url(/public/images/notebook.jpg) repeat-y -80px 0;
+		background-size: calc(100% + 80px);
+	}
+}
+
 svg,
 path {
 	pointer-events: none;
 	color: inherit;
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 textarea {

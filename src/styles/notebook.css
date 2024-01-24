@@ -4,7 +4,7 @@
 	width: 90%;
 	height: 100vh;
 	margin-left: 10%;
-	padding: 0 20px;
+	padding: 0 200px;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
@@ -16,6 +16,13 @@
 	padding: 20px 0;
 }
 
+.notebook__head .left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+}
+
 .notebook__title {
 	text-decoration: underline;
 	font-size: 60px;
@@ -24,7 +31,101 @@
 
 .notebook__remaining {
 	font-size: 25px;
-	border: 5px var(--color-pen) solid;
+	border: 5px var(--color-pen) dashed;
 	padding: 1px 10px;
 	border-radius: 5px;
+	margin-right: 40px;
+	background: #000f55a3;
+	color: white;
+}
+
+@media only screen and (max-width: 1600px) {
+	.notebook {
+		padding: 0 100px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.notebook {
+		padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 1120px) {
+	.notebook__title {
+		font-size: 40px;
+	}
+	.notebook__remaining {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.notebook__head .left {
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: initial;
+	}
+
+	.notebook__remaining {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.notebook__head {
+		flex-direction: column;
+		align-items: center;
+		justify-content: initial;
+	}
+
+	.notebook__head .left {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.notebook__remaining {
+		margin-top: 0;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.notebook__head .left {
+		flex-direction: column;
+		align-items: center;
+		justify-content: initial;
+	}
+
+	.notebook__title {
+		font-size: 50px;
+	}
+
+	.notebook__remaining {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.notebook {
+		height: auto;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.notebook__title {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.notebook__title {
+		font-size: 30px;
+	}
 }

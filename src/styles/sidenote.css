@@ -20,7 +20,7 @@
 	border: none;
 	background: transparent;
 	font-size: 24px;
-	transition: all 200ms ease-in-out;
+	transition: all 200ms ease-out;
 }
 
 .sidenote__content .add:hover {
@@ -42,4 +42,50 @@
 	position: absolute;
 	bottom: -10px;
 	right: -30px;
+}
+
+@media only screen and (max-width: 1120px) {
+	.sidenote__content {
+		width: 150px;
+		height: 50px;
+		background-size: 150px;
+	}
+	.sidenote__content .add {
+		font-size: 17px;
+	}
+	.sidenote__content .add:hover {
+		font-size: 19px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.sidenote__content {
+		width: 200px;
+		height: 80px;
+		background-size: 200px;
+	}
+
+	.sidenote__content .add {
+		font-size: 24px;
+	}
+
+	.sidenote__content .add:hover {
+		font-size: 27px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.sidenote__content {
+		width: 150px;
+		height: 50px;
+		background-size: 150px;
+	}
+
+	.sidenote__content .add {
+		font-size: 17px;
+	}
+
+	.sidenote__content .add:hover {
+		font-size: 19px;
+	}
 }

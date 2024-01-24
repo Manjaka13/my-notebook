@@ -1,10 +1,12 @@
 <template>
 	<div class="notebook">
 		<div class="notebook__head">
-			<h1 class="notebook__title">My Notebook</h1>
-			<p v-if="remainingTaskList.length > 0" class="notebook__remaining">
-				{{ remainingTaskList.length }}/{{ taskList.length }} tasks remaining
-			</p>
+			<div class="left">
+				<h1 class="notebook__title">My Notebook</h1>
+				<p v-if="remainingTaskList.length > 0" class="notebook__remaining">
+					{{ remainingTaskList.length }}/{{ taskList.length }} tasks remaining
+				</p>
+			</div>
 			<side-note />
 		</div>
 		<task-list :tasks="taskList" />
