@@ -67,3 +67,10 @@ ul {
 	background: url(/public/images/notebook.jpg) repeat-y;
 	background-size: 100%;
 }
+
+svg,
+path {
+	pointer-events: none;
+	color: inherit;
+	transition: all 200ms ease-in-out;
+}
