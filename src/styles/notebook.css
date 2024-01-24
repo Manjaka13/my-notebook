@@ -1,9 +1,12 @@
 .notebook {
+	display: flex;
+	flex-direction: column;
 	width: 90%;
+	height: 100vh;
 	margin-left: 10%;
-	height: calc(100% - 40px);
 	padding: 0 20px;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .notebook__head {
