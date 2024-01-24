@@ -11,7 +11,7 @@ export default createStore({
 	state() {
 		return {
 			tasks: [],
-			modal: 0,
+			modal: { status: 0, payload: null },
 		};
 	},
 
@@ -40,8 +40,8 @@ export default createStore({
 		changeTask: ({ commit }, { key, task }) => {
 			commit("updateTask", { key, task });
 		},
-		toggleModal: ({ commit }, mode) => {
-			commit("setModal", mode);
+		toggleModal: ({ commit }, data) => {
+			commit("setModal", data);
 		},
 	},
 
@@ -71,8 +71,12 @@ export default createStore({
 			setTasks([]);
 		},
 		// Opens/closes modal
-		setModal(state, mode) {
-			if (mode === 0 || mode === 1 || mode === 2) state.modal = mode;
+		setModal(state, { status, payload }) {
+			if (status >= 0 && status <= 3)
+				state.modal = {
+					status,
+					payload,
+				};
 		},
 	},
 

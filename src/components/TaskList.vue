@@ -8,6 +8,7 @@
 				:removing="removing === key"
 				@toggle="toggle(key)"
 				@remove="remove(key)"
+				@edit="edit(key)"
 			/>
 		</li>
 	</ul>
@@ -48,6 +49,9 @@ export default {
 		},
 		remove(key) {
 			this.removing = key;
+		},
+		edit(key) {
+			this.$store.dispatch("toggleModal", { status: 2, payload: key });
 		},
 	},
 	watch: {

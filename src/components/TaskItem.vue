@@ -7,7 +7,7 @@
 			<div class="taskitem__head">
 				<h2 class="title">{{ title }}</h2>
 				<div class="taskitem__actions">
-					<button class="action edit" title="Edit task">
+					<button class="action edit" title="Edit task" @click="$emit('edit')">
 						<font-icon icon="pencil-alt" />
 					</button>
 					<button class="action remove" title="Remove task" @click="$emit('remove')">

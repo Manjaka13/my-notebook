@@ -9,6 +9,14 @@
 	position: fixed;
 	top: 0;
 	left: 10%;
+	transition: all 200ms ease-out;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modal--closed {
+	opacity: 0;
+	pointer-events: none;
 }
 
 .modal__overlay {
@@ -49,4 +57,67 @@
 	height: 1px;
 	background: var(--color-pen);
 	margin: 10px 0;
+}
+
+.modal__confirm {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.modal__confirm .button {
+	border-radius: 3px;
+	border: 1px var(--color-pen) solid;
+	margin-right: 20px;
+	width: 200px;
+	background: white;
+	font-size: 30px;
+	transition: all 200ms ease-out;
+}
+
+.modal__confirm .button:hover {
+	color: white;
+}
+
+.modal__confirm .button:last-child {
+	margin-right: 0;
+}
+
+.modal__confirm .button--yes:hover {
+	background: var(--color-pen-green);
+}
+
+.modal__confirm .button--no:hover {
+	background: var(--color-pen-red);
+}
+
+.modal__add {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.modal__add .input {
+	margin-bottom: 10px;
+	border: 1px var(--color-pen) solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100%;
+}
+
+.modal__add .textarea {
+	height: 150px;
+}
+
+.modal__add .submit {
+	width: 200px;
+	font-size: 30px;
+	transition: all 200ms ease-out;
+	border-radius: 3px;
+	border: 1px var(--color-pen) solid;
+	background: white;
+}
+
+.modal__add .submit:hover {
+	color: white;
+	background: var(--color-pen);
 }
