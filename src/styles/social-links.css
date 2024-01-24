@@ -20,7 +20,7 @@
 .social-links__item .link {
 	font-size: 40px;
 	color: var(--color-pen);
-	transition: color 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
 }
 
 .social-links__item .link:hover {

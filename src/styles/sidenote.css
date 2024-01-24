@@ -20,11 +20,12 @@
 	border: none;
 	background: transparent;
 	font-size: 24px;
-	transition: font-size 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
 }
 
 .sidenote__content .add:hover {
 	font-size: 27px;
+	color: var(--color-pen2);
 }
 
 .sidenote__scotch1 {
