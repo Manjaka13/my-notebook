@@ -7,6 +7,7 @@ import {
 	faTimesCircle,
 	faQuestionCircle,
 	faListAlt,
+	faInfoCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import {
 	faFacebook,
@@ -29,4 +30,5 @@ library.add(
 	faTimesCircle,
 	faQuestionCircle,
 	faListAlt,
+	faInfoCircle,
 );

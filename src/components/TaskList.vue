@@ -9,6 +9,7 @@
 				@toggle="toggle(key)"
 				@remove="remove(key)"
 				@edit="edit(key)"
+				@details="details(key)"
 			/>
 		</li>
 	</ul>
@@ -57,6 +58,9 @@ export default {
 		},
 		edit(key) {
 			this.$store.dispatch("toggleModal", { status: 2, payload: key });
+		},
+		details(key) {
+			this.$store.dispatch("toggleModal", { status: 4, payload: key });
 		},
 	},
 	watch: {

@@ -9,8 +9,12 @@
 				<h2 v-else-if="modal.status === 2" class="title">
 					<font-icon icon="pencil-alt" /> Save task
 				</h2>
-				<h2 v-else class="title">
+				<h2 v-else-if="modal.status === 3" class="title">
 					<font-icon icon="question-circle" /> You sure ?
+				</h2>
+				<h2 v-else class="title">
+					<font-icon icon="info-circle" />
+					{{ tasks[modal.payload]?.title }}
 				</h2>
 				<a class="close" title="Close dialog" @click="toggle">
 					<font-icon icon="times-circle" />
@@ -38,9 +42,14 @@
 				</button>
 				<p v-if="error" class="error">{{ error }}</p>
 			</form>
-			<div v-else class="modal__confirm">
+			<div v-else-if="modal.status === 3" class="modal__confirm">
 				<button class="button button--yes" @click="toggleAction(3)">YES</button>
 				<button class="button button--no" @click="toggleAction(4)">NO</button>
+			</div>
+			<div v-else class="modal__show">
+				<p class="description">
+					{{ tasks[modal.payload]?.description }}
+				</p>
 			</div>
 		</div>
 	</div>

@@ -78,7 +78,7 @@ export default createStore({
 		},
 		// Opens/closes modal
 		setModal(state, { status, payload }) {
-			if (status >= 0 && status <= 3)
+			if (status >= 0 && status <= 4)
 				state.modal = {
 					status,
 					payload,
