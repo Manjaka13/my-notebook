@@ -22,10 +22,6 @@ export default {
 		SideNote,
 		TaskList,
 	},
-	// Get task list at component creation
-	created() {
-		this.$store.dispatch("getTaskList");
-	},
 	computed: {
 		taskList() {
 			return this.$store.getters.getTasks;
