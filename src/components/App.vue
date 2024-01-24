@@ -22,9 +22,3 @@ export default {
 	},
 };
 </script>
-
-<style lang="css" scoped>
-#app {
-	/* display: flex; */
-}
-</style>
