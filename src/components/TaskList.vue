@@ -19,13 +19,6 @@
 
 <script>
 import TaskItem from "@/components/TaskItem.vue";
-import {
-	getTasks,
-	setDefaultTasks,
-	updateTask,
-	removeTask,
-} from "@/helpers/utils";
-import { DEFAULT_TASKS } from "@/helpers/const";
 import "@/styles/tasklist.css";
 
 export default {
@@ -35,31 +28,33 @@ export default {
 	},
 	data() {
 		return {
-			tasks: getTasks(),
 			removing: -1,
 		};
 	},
-	created() {
-		if (this.tasks === undefined) {
-			setDefaultTasks();
-			this.tasks = DEFAULT_TASKS;
-		}
+	computed: {
+		tasks() {
+			return this.$store.getters.getTasks;
+		},
 	},
 	methods: {
 		toggle(key) {
-			this.tasks[key].status = !this.tasks[key].status;
-			updateTask("id", this.tasks[key].id, this.tasks[key]);
+			this.$store.dispatch("changeTask", {
+				key,
+				task: {
+					...this.tasks[key],
+					status: !this.tasks[key].status,
+				},
+			});
 		},
 		remove(key) {
 			this.removing = key;
 		},
 	},
 	watch: {
-		removing(v) {
-			if (v >= 0) {
+		removing(key) {
+			if (key >= 0) {
 				setTimeout(() => {
-					removeTask("id", this.tasks[v].id);
-					this.tasks = getTasks();
+					this.$store.dispatch("deleteTask", key);
 					this.removing = -1;
 				}, 200);
 			}
