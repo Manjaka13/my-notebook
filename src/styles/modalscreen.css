@@ -121,3 +121,9 @@
 	color: white;
 	background: var(--color-pen);
 }
+
+.modal__add .error {
+	color: var(--color-pen-red);
+	font-weight: bold;
+	margin-top: 20px;
+}
